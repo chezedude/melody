@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/chezedude/melody"
+	"github.com/olahol/melody"
 )
 
 func main() {

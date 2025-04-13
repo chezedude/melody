@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/chezedude/melody"
 	"github.com/fsnotify/fsnotify"
+	"github.com/olahol/melody"
 )
 
 func main() {

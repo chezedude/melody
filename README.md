@@ -1,9 +1,9 @@
 # melody
 
-![Build Status](https://github.com/chezedude/melody/actions/workflows/test.yml/badge.svg)
-[![Codecov](https://img.shields.io/codecov/c/github/chezedude/melody)](https://app.codecov.io/github/chezedude/melody)
-[![Go Report Card](https://goreportcard.com/badge/github.com/chezedude/melody)](https://goreportcard.com/report/github.com/chezedude/melody)
-[![GoDoc](https://godoc.org/github.com/chezedude/melody?status.svg)](https://godoc.org/github.com/chezedude/melody)
+![Build Status](https://github.com/olahol/melody/actions/workflows/test.yml/badge.svg)
+[![Codecov](https://img.shields.io/codecov/c/github/olahol/melody)](https://app.codecov.io/github/olahol/melody)
+[![Go Report Card](https://goreportcard.com/badge/github.com/olahol/melody)](https://goreportcard.com/report/github.com/olahol/melody)
+[![GoDoc](https://godoc.org/github.com/olahol/melody?status.svg)](https://godoc.org/github.com/olahol/melody)
 
 > :notes: Minimalist websocket framework for Go.
 
@@ -20,12 +20,12 @@ your way so you can write real-time apps. Features include:
 ## Install
 
 ```bash
-go get github.com/chezedude/melody
+go get github.com/olahol/melody
 ```
 
-## [Example: chat](https://github.com/chezedude/melody/tree/master/examples/chat)
+## [Example: chat](https://github.com/olahol/melody/tree/master/examples/chat)
 
-[![Chat](https://cdn.rawgit.com/chezedude/melody/master/examples/chat/demo.gif "Demo")](https://github.com/chezedude/melody/tree/master/examples/chat)
+[![Chat](https://cdn.rawgit.com/olahol/melody/master/examples/chat/demo.gif "Demo")](https://github.com/olahol/melody/tree/master/examples/chat)
 
 ```go
 package main
@@ -33,7 +33,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/chezedude/melody"
+	"github.com/olahol/melody"
 )
 
 func main() {
@@ -55,9 +55,9 @@ func main() {
 }
 ```
 
-## [Example: gophers](https://github.com/chezedude/melody/tree/master/examples/gophers)
+## [Example: gophers](https://github.com/olahol/melody/tree/master/examples/gophers)
 
-[![Gophers](https://cdn.rawgit.com/chezedude/melody/master/examples/gophers/demo.gif "Demo")](https://github.com/chezedude/melody/tree/master/examples/gophers)
+[![Gophers](https://cdn.rawgit.com/olahol/melody/master/examples/gophers/demo.gif "Demo")](https://github.com/olahol/melody/tree/master/examples/gophers)
 
 ```go
 package main
@@ -67,7 +67,7 @@ import (
 	"net/http"
 	"sync/atomic"
 
-	"github.com/chezedude/melody"
+	"github.com/olahol/melody"
 )
 
 var idCounter atomic.Int64
@@ -107,14 +107,14 @@ func main() {
 }
 ```
 
-### [More examples](https://github.com/chezedude/melody/tree/master/examples)
+### [More examples](https://github.com/olahol/melody/tree/master/examples)
 
-## [Documentation](https://godoc.org/github.com/chezedude/melody)
+## [Documentation](https://godoc.org/github.com/olahol/melody)
 
 ## Contributors
 
-<a href="https://github.com/chezedude/melody/graphs/contributors">
-	<img src="https://contrib.rocks/image?repo=chezedude/melody" />
+<a href="https://github.com/olahol/melody/graphs/contributors">
+	<img src="https://contrib.rocks/image?repo=olahol/melody" />
 </a>
 
 ## FAQ
