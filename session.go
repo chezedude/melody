@@ -1,6 +1,7 @@
 package melody
 
 import (
+	"log"
 	"net"
 	"net/http"
 	"sync"
@@ -24,6 +25,8 @@ type Session struct {
 func (s *Session) writeMessage(message envelope) {
 	s.rwmutex.RLock()
 	defer s.rwmutex.RUnlock()
+
+	log.Println("writeMessage")
 
 	if !s.open {
 		s.melody.errorHandler(s, ErrWriteClosed)
