@@ -1,14 +1,14 @@
-module github.com/olahol/melody/examples
+module github.com/chezedude/melody/examples
 
 go 1.22
 
-replace github.com/olahol/melody => ../
+replace github.com/chezedude/melody => ../
 
 require (
 	github.com/fsnotify/fsnotify v1.5.4
 	github.com/gin-gonic/gin v1.9.1
 	github.com/labstack/echo/v4 v4.9.0
-	github.com/olahol/melody v0.0.0-00010101000000-000000000000
+	github.com/chezedude/melody v0.0.0-00010101000000-000000000000
 )
 
 require (

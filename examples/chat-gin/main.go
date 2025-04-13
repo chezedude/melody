@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/olahol/melody"
 	"net/http"
+
+	"github.com/chezedude/melody"
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
