@@ -1,4 +1,4 @@
-module github.com/chezedude/melody
+module github.com/chezedude/melody/v0
 
 go 1.19
 
