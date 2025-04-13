@@ -22,7 +22,10 @@ type Session struct {
 }
 
 func (s *Session) writeMessage(message envelope) {
-	if s.closed() {
+	s.rwmutex.RLock()
+	defer s.rwmutex.RUnlock()
+
+	if !s.open {
 		s.melody.errorHandler(s, ErrWriteClosed)
 		return
 	}
@@ -35,7 +38,10 @@ func (s *Session) writeMessage(message envelope) {
 }
 
 func (s *Session) writeRaw(message envelope) error {
-	if s.closed() {
+	s.rwmutex.RLock()
+	defer s.rwmutex.RUnlock()
+
+	if !s.open {
 		return ErrWriteClosed
 	}
 
