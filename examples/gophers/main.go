@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"sync/atomic"
 
-	"github.com/olahol/melody"
+	"github.com/chezedude/melody"
 )
 
 var idCounter atomic.Int64
